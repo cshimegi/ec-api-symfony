@@ -34,5 +34,5 @@ format-src:
 format-tests:
 	@echo $(SEPARATOR)
 	@echo "Formatting php files under tests directory..."
-	prettier "./src/**/*.php" --write
+	prettier "./tests/**/*.php" --write
 	@echo $(SEPARATOR)
